@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    height: 100vh;
+    background-color: #354259;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.NavBar{
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+    background-color: #354259;
+}
+.LeftSidePanel{
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 10;
+    background-color: #CDC2AE;
+}
+
+.Content{
+    grid-column: 3 / span 8;
+    grid-row: 2 / span 9;
+    background-color: #ECE5C7;
+}
+
+.RightSidePanel{
+    grid-column: 9 / span 4;
+    grid-row: 2 / span 10;
+    background-color: #CDC2AE;
+}
+
+.Footer{
+    grid-column: 1 / span 12;
+    grid-row: 11 / span 2;
+    background-color: #354259;
+}
